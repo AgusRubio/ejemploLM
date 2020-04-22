@@ -7,7 +7,12 @@ function gestionarFicheroXML(xmlDoc){
 	
 }
 
+function gestionarFicheroTXT(txtDoc){
+    document.getElementById('ficheroTXT').innerHTML
+}
+
 document.querySelector("div:nth-child(1)").addEventListener("click",()=>{
 
     let xmlDoc = loadLDocA("leerFicheroXML.xml","xml");
+    let txtDoc = loadLDocA("nombresAsignaturas.txt","txt");
 })
